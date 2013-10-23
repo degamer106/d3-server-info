@@ -19,11 +19,13 @@ Tools Used
 - Eclipse IDE - Android/Java development environment
 - Firefox SQLite Manager plugin - Verifying the database was correct
 - Makeappicon - Online website that generates icons for different screen DPIs.
+- ActionbarSherlock - Backwards compatible library to support older versions of Android.
 
 Improvements
 ============
 - Getting rid of the SQLite DB.  In hindsight, I realized that there was no real point in having a database.  I just wanted to play around with the APIs a bit.
 - Code refactoring.
+- Backward compatibility support for older Android versions.  For some reason, this app crashes on some older devices (Samsung Galaxy Ace) and without several different older devices to test this on, I can't localize the problem.  Hence, the reason why its only Android 4.0+ compatible.
 
 Future plans
 ============
